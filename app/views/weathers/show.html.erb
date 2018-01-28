@@ -1,0 +1,33 @@
+<p><b>Title : <%= @title %></b></p>
+    <ul>
+      <li>発表 : <%= @announce %></li>
+      <li>日付 : <%= @weatherdate %></li>
+      <li>天気 : <%= @weatherforecast %></li>
+      <%= image_tag @weatherimage %>
+      <li>最高気温 : <%= @hightemp %></li>      
+      <li>最低気温 : <%= @lowtemp %></li>
+    </ul>
+            
+<TABLE border="1">
+<TR>
+    <TD align="center"> 時間帯 </TD>
+    <TD align="center"> 00-06 </TD>
+    <TD align="center"> 06-12 </TD>
+    <TD align="center"> 12-18 </TD>
+    <TD align="center"> 18-24 </TD>
+<TR>
+    <TD align="center">降水％</TD>
+    <TD align="center"> <%= @precip1 %> </TD>
+    <TD align="center"> <%= @precip2 %> </TD>
+    <TD align="center"> <%= @precip3 %> </TD>
+    <TD align="center"> <%= @precip4 %> </TD>
+<CAPTION>降水確立</CAPTION>
+</TABLE>
+
+
+<!-- 
+<br>
+<br>
+<p>str1: <%= @str1 %></p>
+<p>Precip1 : <%= @precip1 %> ,Precip2 : <%= @precip2 %> ,Precip3 : <%= @precip3 %> ,Precip4 : <%= @precip4 %> </p>
+-->
