@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+![rubyonrails](https://user-images.githubusercontent.com/33685249/36351069-3f2f0542-14e7-11e8-804b-530482244ee0.png)
